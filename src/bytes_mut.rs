@@ -438,13 +438,7 @@ impl BytesMut {
 
     /// Resizes the buffer so that `len` is equal to `new_len`.
     ///
-    /// If `new_len` is greater than `len`, the buffer is 
-    
-    
-    
-    
-    
-    ed by the
+    /// If `new_len` is greater than `len`, the buffer is extended by the
     /// difference with each additional byte set to `value`. If `new_len` is
     /// less than `len`, the buffer is simply truncated.
     ///
